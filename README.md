@@ -9,7 +9,9 @@ udpate @ 2024/09/03
 
 - BUTTON : P137 
 
-- IICA0 : SCLA0 : P60 ,  SDSA0 : P61
+- IICA0 MASTER : SCLA0 : P60 ,  SDSA0 : P61
+
+	- use RL78_F13_IICA0_I2C_Slave , for I2C slave
 
 - use P41 for GPIO to sync with slave if necessary, check define : ENALBE_SPECIFIC_FUNCTION
 
