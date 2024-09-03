@@ -9,11 +9,11 @@ udpate @ 2024/09/03
 
 - BUTTON : P137 
 
-- IICA0 MASTER : SCLA0 : P60 ,  SDSA0 : P61
+- IICA0 MASTER : SCLA0/P60 ,  SDSA0/P61
 
 	- use RL78_F13_IICA0_I2C_Slave , for I2C slave
 
-- use P41 for GPIO to sync with slave if necessary, check define : ENALBE_SPECIFIC_FUNCTION
+- use P41 for GPIO output to sync with slave if necessary, check define : ENALBE_SPECIFIC_FUNCTION
 
 - press button , will write I2C data , check IICA0_send_seq_cmd
 
@@ -29,7 +29,7 @@ udpate @ 2024/09/03
 
 	- read reg : 0x00 , below is cmd format
 	
-	- slave will return , 00h,00h,5Ah,A5h,counter,00h,crc
+	- slave will return : 00h,00h,5Ah,A5h,counter,00h,crc
 
 2. below is LA capture 
 
