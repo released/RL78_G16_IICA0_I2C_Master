@@ -94,10 +94,8 @@
 
 /*_____ D E F I N I T I O N S ______________________________________________*/
 
-#define ENALBE_SPECIFIC_FUNCTION
-
 #define TOUCH_SYNC                                      (P4_bit.no1)    //OUTPUT
-
+// #define ENALBE_SPECIFIC_FUNCTION
 
 #define ENABLE_BTN1
 // #define ENABLE_BTN2
